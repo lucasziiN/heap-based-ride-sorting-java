@@ -112,13 +112,16 @@ ride-scheduler-heap/
 --- 
 
 ## 🏁 How to Compile & Run
-
+```plaintext
 javac *.java
 java Main.java            
+```
 
 # Run tests
+```plaintext
 javac -cp junit-platform-console-standalone-1.8.2.jar -d out *.java
 java -jar junit-platform-console-standalone-1.8.2.jar -cp out --scan-classpath
+```
 
 ---
 
